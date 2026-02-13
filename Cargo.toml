@@ -1,0 +1,8 @@
+[package]
+name = "datex-native-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+datex = { path = "../datex-cli" }
+tokio = "1.49.0"
