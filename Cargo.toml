@@ -5,4 +5,5 @@ edition = "2024"
 
 [dependencies]
 datex = { path = "../datex-cli" }
+flexi_logger = "0.31.8"
 tokio = "1.49.0"

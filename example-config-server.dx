@@ -1,0 +1,12 @@
+{
+    endpoint: @server,
+    interfaces: [
+        {
+            type: "tcp-server",
+            config: {
+                host: "0.0.0.0",
+                port: 8042
+            }
+        }
+    ]
+}
