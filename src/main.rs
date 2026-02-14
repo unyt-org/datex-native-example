@@ -2,7 +2,7 @@ use std::time::Duration;
 use tokio::time::sleep;
 use datex::core::runtime::{Runtime};
 
-#[datex::main("../example-config-server.dx")]
+#[datex::main("../config.dx")]
 async fn main(runtime: Runtime) {
     flexi_logger::init();
     println!("Hello, DATEX - Version: {}", runtime.version);

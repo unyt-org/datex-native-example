@@ -1,5 +1,5 @@
 {
-    endpoint: @server,
+    endpoint: @example-endpoint,
     interfaces: [
         {
             type: "tcp-server",
