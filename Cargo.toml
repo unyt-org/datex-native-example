@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-datex = { git = "https://github.com/unyt-org/datex-cli", branch = "refactor/update-loop"}
+datex = { git = "https://github.com/unyt-org/datex-native", branch = "refactor/update-loop"}
 flexi_logger = "0.31.8"
 tokio = "1.49.0"
