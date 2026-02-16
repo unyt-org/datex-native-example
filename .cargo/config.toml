@@ -1,2 +1,0 @@
-[patch."https://github.com/unyt-org/datex-core"]
-datex-core = { path = "../datex-core/crates/datex-core", default-features = false, features = ["std", "compiler"] }
