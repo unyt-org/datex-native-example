@@ -650,7 +650,7 @@ checksum = "d7a1e2f27636f116493b8b860f5546edb47c8d8f8ea73e1d2a20be88e28d1fea"
 [[package]]
 name = "datex"
 version = "0.0.9"
-source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#2e02d72a48610f3accd5a07c7ad68a40f185e427"
+source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#41a23126d29c156c081166708dad4f439868770e"
 dependencies = [
  "datex-cli",
  "datex-native",
@@ -662,7 +662,7 @@ dependencies = [
 [[package]]
 name = "datex-cli"
 version = "0.0.9"
-source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#2e02d72a48610f3accd5a07c7ad68a40f185e427"
+source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#41a23126d29c156c081166708dad4f439868770e"
 dependencies = [
  "clap",
  "crossterm",
@@ -680,7 +680,7 @@ dependencies = [
 [[package]]
 name = "datex-core"
 version = "0.0.8"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#fcf76cf8fdaf4d06acac12411ce91190f5310e9f"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
 dependencies = [
  "ariadne",
  "async-select",
@@ -731,7 +731,7 @@ dependencies = [
 [[package]]
 name = "datex-crypto-facade"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#fcf76cf8fdaf4d06acac12411ce91190f5310e9f"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
 dependencies = [
  "bs58",
 ]
@@ -739,7 +739,7 @@ dependencies = [
 [[package]]
 name = "datex-crypto-native"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#fcf76cf8fdaf4d06acac12411ce91190f5310e9f"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
 dependencies = [
  "datex-crypto-facade",
  "openssl",
@@ -750,7 +750,7 @@ dependencies = [
 [[package]]
 name = "datex-macros-internal"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#fcf76cf8fdaf4d06acac12411ce91190f5310e9f"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -760,7 +760,7 @@ dependencies = [
 [[package]]
 name = "datex-native"
 version = "0.0.9"
-source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#2e02d72a48610f3accd5a07c7ad68a40f185e427"
+source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#41a23126d29c156c081166708dad4f439868770e"
 dependencies = [
  "async_tiny",
  "datex-core",
@@ -791,7 +791,7 @@ dependencies = [
 [[package]]
 name = "datex-native-macros"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#2e02d72a48610f3accd5a07c7ad68a40f185e427"
+source = "git+https://github.com/unyt-org/datex-native?branch=refactor%2Fupdate-loop#41a23126d29c156c081166708dad4f439868770e"
 dependencies = [
  "datex-core",
  "proc-macro2",
