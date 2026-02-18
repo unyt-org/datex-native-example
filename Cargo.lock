@@ -680,7 +680,7 @@ dependencies = [
 [[package]]
 name = "datex-core"
 version = "0.0.8"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#5b8ab99d31dc2c212e4ddf7ee390883e88966e1e"
 dependencies = [
  "ariadne",
  "async-select",
@@ -731,7 +731,7 @@ dependencies = [
 [[package]]
 name = "datex-crypto-facade"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#5b8ab99d31dc2c212e4ddf7ee390883e88966e1e"
 dependencies = [
  "bs58",
 ]
@@ -739,7 +739,7 @@ dependencies = [
 [[package]]
 name = "datex-crypto-native"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#5b8ab99d31dc2c212e4ddf7ee390883e88966e1e"
 dependencies = [
  "datex-crypto-facade",
  "openssl",
@@ -750,7 +750,7 @@ dependencies = [
 [[package]]
 name = "datex-macros-internal"
 version = "0.0.1"
-source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#175930c0149b7ecb41e4a70160a77c7234a26ea3"
+source = "git+https://github.com/unyt-org/datex?branch=refactor%2Fupdate-loop#5b8ab99d31dc2c212e4ddf7ee390883e88966e1e"
 dependencies = [
  "proc-macro2",
  "quote",
