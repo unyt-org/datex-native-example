@@ -1,18 +1,21 @@
 {
     endpoint: @example-endpoint,
     interfaces: [
-        {
-            type: "tcp-server",
-            config: {
-                host: "0.0.0.0",
-                port: 8042
-            }
-        },
+//        {
+//            type: "tcp-server",
+//            config: {
+//                host: "0.0.0.0",
+//                port: 8042
+//            },
+//            priority: #None,
+//        },
         {
             type: "websocket-server",
             config: {
                 bind_address: "0.0.0.0:8043"
-            }
+            },
+            priority: #None,
         }
-    ]
+    ],
+    env: null,
 }
