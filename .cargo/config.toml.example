@@ -1,6 +1,7 @@
 [patch.crates-io]
 datex = { path = "../datex-native/crates/datex" }
-datex-core = { path = "../datex/crates/datex-core", default-features = false, features = [
-    "target_native", "decompiler", "syntax_highlighting_legacy", "compiler", "allow_unsigned_blocks"
-] }
+datex-core = { path = "../datex/crates/datex-core" }
 datex-macro-utils = { path = "../datex/crates/datex-macro-utils" }
+datex-native = { path = "../datex-native/crates/datex-native" }
+datex_cli = { path = "../datex-native/crates/datex-cli" }
+datex-native-macros = { path = "../datex-native/crates/datex-native-macros" }
