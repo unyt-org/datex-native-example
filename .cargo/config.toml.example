@@ -1,3 +1,6 @@
+[build]
+jobs = 1
+
 [patch.crates-io]
 datex = { path = "../datex-native/crates/datex" }
 datex-core = { path = "../datex/crates/datex-core" }
